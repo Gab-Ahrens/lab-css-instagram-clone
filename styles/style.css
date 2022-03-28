@@ -6,5 +6,94 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background: url(./images/bgtile.png);
+}
+
+#bluebackground {
+  background-image: linear-gradient(#1c5380, #06365f);
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  width: 340px;
+  color: #06365f;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 30px;
+}
+
+.login-button {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.login-button a {
+  font-weight: bold;
+  color: white;
+  border: #1c5380 solid 2px;
+  padding: 15px;
+  margin: 12px;
+  border-radius: 5px;
+  background-color: #1c5380;
+  text-decoration: none;
+}
+
+.login-button a img {
+  width: 18px;
+}
+
+#phones {
+  width: 420px;
+}
+
+.main article {
+  width: 35%;
+  margin: 10px;
+  padding: 20px;
+}
+
+.description {
+  background: url(./images/frame.png);
+  padding: 30px;
+  margin-top: 10px;
+  font-size: 22px;
+}
+
+
+.down-buttons {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.down-buttons img {
+  margin: 10px 20px 10px 20px;
+  width: 100%
+}
+
+footer {
+  justify-content: center;
+  text-decoration: none;
+}
+
+footer ul a {
+  text-decoration: none;
+}
+
+footer ul {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  color: #1c5380;
+  font-weight: bold;
+  padding: 50px;
+  margin-right: 20px;
 }
